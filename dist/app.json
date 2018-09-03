@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/user/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的音乐",
+    "navigationBarTextStyle": "black"
+  }
+}

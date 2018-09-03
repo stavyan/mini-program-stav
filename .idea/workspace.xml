@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77d4d0ea-ec75-457e-b35f-d0336faec250" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/iview/action-sheet/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/action-sheet/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/action-sheet/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/action-sheet/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/alert/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/alert/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/alert/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/alert/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/avatar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/avatar/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/avatar/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/avatar/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/badge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/badge/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/badge/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/badge/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/base/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/button/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/button/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/button/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/card/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/card/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/card/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/cell-group/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/cell-group/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/cell-group/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/cell/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/cell/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/cell/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/cell/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/checkbox-group/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/checkbox-group/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/checkbox-group/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/checkbox-group/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/checkbox/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/checkbox/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/checkbox/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/checkbox/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/col/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/col/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/col/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/col/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/collapse-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/collapse-item/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/collapse-item/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/collapse-item/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/collapse/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/collapse/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/collapse/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/collapse/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/count-down/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/count-down/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/count-down/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/count-down/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/divider/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/divider/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/divider/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/divider/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/drawer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/drawer/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/drawer/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/drawer/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-icon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-icon/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-icon/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-icon/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-item/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-item/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-item/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-label/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-label/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-label/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid-label/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/grid/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/icon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/icon/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/icon/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/icon/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/index-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/index-item/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/index-item/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/index-item/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/index/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/index/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/index/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/index/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/input-number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/input-number/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/input-number/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/input-number/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/input/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/input/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/input/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/load-more/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/load-more/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/load-more/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/load-more/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/message/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/message/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/message/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/message/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/modal/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/modal/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/modal/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/modal/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/notice-bar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/notice-bar/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/notice-bar/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/notice-bar/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/page/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/page/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/page/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/panel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/panel/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/panel/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/panel/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/progress/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/progress/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/progress/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/progress/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/radio-group/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/radio-group/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/radio-group/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/radio-group/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/radio/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/radio/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/radio/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/radio/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/rate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/rate/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/rate/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/rate/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/row/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/row/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/row/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/row/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/slide/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/slide/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/slide/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/slide/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/spin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/spin/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/spin/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/spin/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/step/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/step/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/step/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/step/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/steps/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/steps/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/steps/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/steps/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/sticky-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/sticky-item/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/sticky-item/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/sticky-item/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/sticky/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/sticky/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/sticky/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/sticky/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/swipeout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/swipeout/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/swipeout/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/swipeout/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/switch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/switch/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/switch/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/switch/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab-bar-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab-bar-item/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab-bar-item/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab-bar-item/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab-bar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab-bar/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab-bar/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab-bar/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tab/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tabs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tabs/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tabs/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tabs/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tag/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tag/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/tag/index.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/toast/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/toast/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/toast/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iview/toast/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/around$ceb27adc.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/comment$67f57b38.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/comment$75131db9.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/indexPage$59021b8a.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/indexPage$b6d54380.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/indexPage$e263b742.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/musicIndex$2835addc.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/musicIndex$48c526d3.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/musicIndex$75dfd5f0.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/newsong$e8856038.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/paihang$1c451ae4.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/playing$128880d6.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/rank-comp$84a4f468.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/scroll$591bc241.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/serachPage$09786346.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/serachPage$304d7750.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/serachPage$e5a515de.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/slots.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/songlist$0679e672.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/songlist$2bb53d68.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/songlist$42b8ecb3.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/songlistRecomd$3c6a3cd3.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/songlistRecomd$7580dfdc.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/user$250d2753.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/user$674bfd08.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/components/user$db315fdc.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/around/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/around/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/around/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/around/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/comment/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/comment/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/comment/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/comment/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/musicIndex/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/musicIndex/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/musicIndex/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/musicIndex/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/newsong/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/newsong/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/newsong/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/newsong/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/paihang/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/paihang/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/paihang/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/paihang/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/playing/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/playing/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/playing/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/playing/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/searchPage/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/searchPage/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/searchPage/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/searchPage/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/songList/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/songList/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/songList/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/songList/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/songlistRecomd/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/songlistRecomd/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/songlistRecomd/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/songlistRecomd/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/user/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/user/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/user/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/user/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/userrecomd/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/userrecomd/main.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/userrecomd/main.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/pages/userrecomd/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/acg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/bgimg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/bs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/dj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/douy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/ds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/dy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/fj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/gd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/gud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/gwc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/ituns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/marker_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/marker_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/musics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/my.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/qq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/rg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/sb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/sc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/sys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/uk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/vip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/wddt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/wdsc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/wyy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/wyy2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/wyys2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/xg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/xh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/xx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/yc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/yf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/ygq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/zhanghao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/zhanghaos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/img/zjbf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/tempData/tempLyc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/resource/tempData/tempPlayList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/around/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/comment/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/musicIndex/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/newsong/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/paihang/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/playing/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/searchPage/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/songList/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/songlistRecomd/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/user/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/pages/userrecomd/main.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/vendor.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/around/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/around/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/comment/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/comment/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/musicIndex/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/musicIndex/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/newsong/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/newsong/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/paihang/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/paihang/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/playing/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/playing/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/searchPage/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/searchPage/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/songList/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/songList/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/songlistRecomd/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/songlistRecomd/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/user/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/user/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/userrecomd/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/pages/userrecomd/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/acg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/dj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/douy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/dy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/ituns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/marker_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/marker_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/qq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/rg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/uk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/xg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/xh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/yc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/ygq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/around/around.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/around/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/comment/comment.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/comment/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/musicIndex/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/musicIndex/musicIndex.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/newsong/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/newsong/newsong.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/paihang/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/paihang/paihang.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/playing/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/playing/playing.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/searchPage/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/searchPage/serachPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/songList/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/songList/songlist.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/songlistRecomd/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/songlistRecomd/songlistRecomd.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/user/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/user/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/user/user.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/user/user.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/userrecomd/indexPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/userrecomd/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stores/stores.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/bmap-wx.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/user/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/user/user.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="2" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user$55cf0973.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/components/user$55cf0973.wxml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/pages/user/main.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="main.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/pages/user/main.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="main.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/pages/user/main.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.wxss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/pages/user/main.wxss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loader</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/pages/user/main.js" />
+        <option value="$PROJECT_DIR$/src/stores/storea.js" />
+        <option value="$PROJECT_DIR$/src/pages/user/user.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="289" />
+    <option name="y" value="58" />
+    <option name="width" value="1537" />
+    <option name="height" value="765" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-project" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-project" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77d4d0ea-ec75-457e-b35f-d0336faec250" name="Default" comment="" />
+      <created>1535813081185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535813081185</updated>
+      <workItem from="1535813084028" duration="1826000" />
+      <workItem from="1535815213568" duration="36000" />
+      <workItem from="1535819050051" duration="773000" />
+      <workItem from="1535857443614" duration="2586000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5221000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="289" y="58" width="1537" height="765" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2414248" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5019789" side_tool="true" weight="0.46107784" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4980211" visible="true" weight="0.46107784" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/searchPage/main.js</url>
+          <line>12</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/stores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user/user.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/searchPage/main.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/around/main.js" />
+    <entry file="file://$PROJECT_DIR$/project.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" lean-forward="true" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/searchPage/main.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/around/main.js" />
+    <entry file="file://$PROJECT_DIR$/project.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="31" lean-forward="true" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-958" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/comment/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/musicIndex/musicIndex.vue" />
+    <entry file="file://$PROJECT_DIR$/src/pages/musicIndex/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/newsong/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/paihang/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/playing/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/songlistRecomd/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/songList/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/stores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="9" column="31" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user/user.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/user/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pages/user/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pages/user/main.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pages/user/main.wxss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pages/user/main.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/components/user$55cf0973.wxml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+<template name="user$55cf0973">
+  <view class="_div data-v-5f924850">
+    <i-button type="success" class="_i-button data-v-5f924850">你好</i-button>
+  </view>
+</template>
